@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:matchApp/Screen/AddScreen.dart';
+import 'package:matchApp/Widget/ListViewMatch.dart';
 
 class MainScreen extends StatefulWidget {
   @override
@@ -6,6 +8,7 @@ class MainScreen extends StatefulWidget {
 }
 
 class _MainScreenState extends State<MainScreen> {
+
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -22,11 +25,16 @@ class _MainScreenState extends State<MainScreen> {
         ),
         body: TabBarView(
           children: [
-            Text("Hello one"),
-            Text("Hello two"),
+           ListViewMatch(flag: true),
+           ListViewMatch(flag: false),
           ],
         ),
         floatingActionButton: FloatingActionButton(
+          onPressed: () { 
+            Navigator.push(context,
+             MaterialPageRoute(builder: (context) => AddScreen())
+            );
+           },
           child: Icon(Icons.add),
           ),
       ),
