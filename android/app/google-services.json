@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "48348725515",
+    "firebase_url": "https://matchapp-fb732.firebaseio.com",
+    "project_id": "matchapp-fb732",
+    "storage_bucket": "matchapp-fb732.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:48348725515:android:e350d041d47a0e209aa20e",
+        "android_client_info": {
+          "package_name": "com.example.matchApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "48348725515-kqu55bafc5mgk1mncooci711sqsnmpu3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjYvJEk7rHqkgjElqsi9XyD2E_Pqw3aAc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "48348725515-kqu55bafc5mgk1mncooci711sqsnmpu3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
